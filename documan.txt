@@ -1,0 +1,55 @@
+!GITHUB
+
+Github: Github, yazılım geliştiricilerin projelerini paylaşabileceği, işbirliği yapabileceği ve projelerini yönetebileceği bir platformdur. 
+
+Repository: Repository, projenin depolandığı ve yönetildiği bir alandır. Projelerin tüm dosyaları, kodları ve belgeleri bu alanda saklanır.,
+
+stars: Beğendiğimiz projeleri ekleyebiliriz.
+
+Brunch: Bir proje üzerinde farklı kişilerin yaptığı işlerin birleştirilmesidir. Örneğin bir yemek sitesi;
+1. kişi yemek sayfaları, 2. kişi yorumlar kısmını, 3. kişi sipariş ekranını yapabilir. Herkes kendi brench' ini oluşturur ve tek projede birleştirilmesidir.
+
+Commit: Commit, projenin değişikliklerinin kaydedildiği ve yönetildiği bir alandır. Projelerin değişiklikleri bu alanda saklanır.
+
+Git: Git, projelerin versiyon kontrolünü yapabilen bir sistemdir. Projelerin değişiklikleri, versiyonları ve geçmişi bu sistem ile yönetilir.
+
+Projeleri yayınlamak için;
+
+1. Öncelikle bir depo oluşturulur. (public, private)
+2. Git download edilir ve yüklenir. (git --version kontrol edilir)
+3. Terminal açılır ve projenin olduğu klasöre gidilir. (cd BenimSitem)
+4. git init komutu ile git başlatılır. (klasörü göremiyorsak gizlidir. Ayrıca dosya isimlerinin yanına U gelir)
+5. git add . komutu ile tüm dosyaları ekleriz. (. ile hepsi eklenir. Ayrıca U lar A oldu)
+6. git status komutu ile eklenen dosyaları kontrol ederiz. (Yeşil ise eklenmiştir)
+7. git commit -m "ilk Dosya Gönderme" komutu ile dosyaları commit ederiz. (Ne işlem yaptıysak mesaja onu yazarız, Dosyalarda herhangi bir işaret kalmaz)
+8. Dosyalarda herhangi bir değişiklik yaparsak (değişen dosyaya M işareti gelir) tekrar git add . ve git commit -m "Değişiklik" yaparız. 
+9. git remote add origin https://github.com/ahmetbekereci/KisiselWebim0646.git komutu ile githuba bağlanırız. (githubdaki repomuzun linkini kopyalayıp yapıştırırız)
+10. Göndermek için git push komutunu kullanırız. Fakat dosyaları ilk kez gönderiyorsak; "git push --set-upstream origin master" komutu ile dosyaları githuba göndeririz. (ilk defa gönderme yapacaksak) ve dosyalar githuba yüklenir. 
+11. Github Yenile dediğimizde görrüz.
+12. Sonraki göndermelerde git push komutu ile dosyaları githuba göndeririz.
+
+13. Eğer gönderimde hata verirse git remote -v komutu ile bağlantıları kontrol ederiz.
+14. git remote remove origin komutu ile bağlantıyı kaldırırız.
+15. git remote add origin https://github.com/ahmetbekereci/KisiselWebim0646.git komutu ile bağlantıyı tekrar yaparız yada silmeden git remote set-url origin https://github.com/ahmetbekereci/KisiselWebim0646.git yazabiliriz.
+
+16. git push -u origin master komutu ile dosyaları githuba göndeririz. (ilk defa gönderme yapacaksak -u ekleriz) ve dosyalar githuba yüklenir. 
+
+17. Yeni bir dosya ekledikten sonra git add . ve git commit -m "Yeni Dosya" git push yaparız.
+18. git pull origin master komutu ile githubdaki dosyaları bilgisayara çekeriz. (master yerine main de olabilir) 
+19. Projeye eklenen bir dosyayı kendime çekip çalışabilirim ve tekrar yollayabilirim.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
